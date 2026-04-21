@@ -18,6 +18,7 @@ create table booking(
     total_room int check (total_room > 0)
 );
 
+-- mẫu để thử 
 INSERT INTO booking (user_id, `status`, total_room) 
 VALUES 
 (2, 'BOOKED', 1), 
@@ -35,8 +36,6 @@ VALUES
 (1, 'BOOKED', 1), 
 (1, 'BOOKED', 1), 
 (1, 'BOOKED', 1);
-
-delete from booking;
 
 select * from booking;
 
